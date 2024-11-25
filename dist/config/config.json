@@ -1,0 +1,8 @@
+{
+    "paths": {
+        "jarPath": "path/to/your/file.jar",
+        "exePath": "path/to/your/Haxly.exe",
+        "iconPath": "path/to/your/Haxly_logo.ico",
+        "outputDir": "path/to/output/directory"
+    }
+}

@@ -1,0 +1,48 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+.settings.json
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - NetBeans
+nbproject/private/
+build/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Swing specific
+*.form

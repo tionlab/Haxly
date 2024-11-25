@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>${jsonfile:config.json:$.paths.jarPath}</jar>
+  <outfile>${jsonfile:config.json:$.paths.exePath}</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>${jsonfile:config.json:$.paths.iconPath}</icon>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>23</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>V1.0</txtFileVersion>
+    <fileDescription>Calculate the hash of the file.</fileDescription>
+    <copyright>tionlab</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>V1.0</txtProductVersion>
+    <productName>Haxly</productName>
+    <companyName>tionlab</companyName>
+    <internalName>Haxly</internalName>
+    <originalFilename>Haxly.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
