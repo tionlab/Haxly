@@ -42,7 +42,7 @@
 
 > ⚠️ Windows Only
 
-1. Download `HaxlySetup.exe` from [GitHub Releases](https://github.com/tionlab/haxly/releases)
+1. Download `HaxlySetup.exe` from [GitHub Releases](https://github.com/tionlab/Haxly/releases)
 2. Run the downloaded installer
 3. After installation, run by either:
     - Launching Haxly directly
@@ -58,15 +58,15 @@
 #### Installation
 
 ```bash
-git clone https://github.com/tionlab/haxly.git
-cd haxly
+git clone https://github.com/tionlab/Haxly.git
+cd Haxly
 mvn clean install
 ```
 
 #### Normal Execution
 
 ```bash
-java -jar haxly.jar
+java -jar Haxly.jar
 ```
 
 #### File-specific Execution
@@ -90,7 +90,7 @@ java -jar haxly.jar [file_path]
 3. Push to the main branch (`git push origin main`)
 4. Open a Pull Request
 
-If direct contribution is difficult, please share your thoughts through an [Issue](https://github.com/tionlab/haxly/issues).
+If direct contribution is difficult, please share your thoughts through an [Issue](https://github.com/tionlab/Haxly/issues).
 
 ## 📄 License
 

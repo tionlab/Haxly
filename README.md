@@ -42,7 +42,7 @@
 
 > ⚠️ Windows 전용
 
-1. [GitHub Releases](https://github.com/tionlab/haxly/releases)에서 최신 버전의 `HaxlySetup.exe` 다운로드
+1. [GitHub Releases](https://github.com/tionlab/Haxly/releases)에서 최신 버전의 `HaxlySetup.exe` 다운로드
 2. 다운로드한 설치 파일 실행
 3. 설치 완료 후 다음 방법으로 실행:
     - Haxly를 직접 실행
@@ -58,21 +58,21 @@
 #### 설치
 
 ```bash
-git clone https://github.com/tionlab/haxly.git
-cd haxly
+git clone https://github.com/tionlab/Haxly.git
+cd Haxly
 mvn clean install
 ```
 
 #### 일반 실행
 
 ```bash
-java -jar haxly.jar
+java -jar Haxly.jar
 ```
 
 #### 파일 지정 실행
 
 ```bash
-java -jar haxly.jar [파일경로]
+java -jar Haxly.jar [파일경로]
 ```
 
 ## 📸 시연
@@ -90,7 +90,7 @@ java -jar haxly.jar [파일경로]
 3. main 브랜치에 푸시하세요 (`git push origin main`)
 4. Pull Request를 열어주세요
 
-직접 기여가 어려운 경우, [Issue](https://github.com/tionlab/haxly/issues)를 통해 의견을 제시해 주세요.
+직접 기여가 어려운 경우, [Issue](https://github.com/tionlab/Haxly/issues)를 통해 의견을 제시해 주세요.
 
 ## 📄 라이선스
 
