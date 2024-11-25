@@ -4,10 +4,18 @@
 [![Java Version](https://img.shields.io/badge/java-23-orange)](https://openjdk.java.net/)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/tionlab/Haxly)
 
+> This program supports both Korean and English.
+
 <div align="center">
     <img src="src\main\resources\imgs\Haxly_main.png" alt="Haxly Logo" width="250"/>
     <br/>
     <p>간단한 방법으로 다양한 해시 알고리즘을 통해 파일을 해시화하는 소프트웨어</p>
+</div>
+
+<div align="center">
+    <h3>🌏 Language</h3>
+    <a href="README.md">한국어</a> |
+    <a href="README_en.md">English</a>
 </div>
 
 ## ✨ 주요 기능
