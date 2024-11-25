@@ -52,7 +52,6 @@ public class FileUtils {
                     e.printStackTrace();
                 }
             }
-            // 시스템 아이콘도 50x50으로 스케일링
             Icon originalIcon = FileSystemView.getFileSystemView().getSystemIcon(main.selectedFile);
             if (originalIcon instanceof ImageIcon) {
                 Image img = ((ImageIcon) originalIcon).getImage();
